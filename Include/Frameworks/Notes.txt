@@ -1,0 +1,3 @@
+/*
+These plugins were adapted to works fine on DBSX, be aware of any change of these may cause system failures.
+*/

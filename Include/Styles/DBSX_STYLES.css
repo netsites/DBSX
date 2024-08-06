@@ -1,0 +1,212 @@
+/* /////  CUSTOM STYLES   /////  */
+/* LISTVIEW LINKS & TEXTS */
+/* dynamic titles */
+.DBSX_LISTVIEW a {
+    font-size: 20px;
+    color: #6fc063 !important;
+}
+/* dynamic text */
+.DBSX_LISTVIEW  {
+    font-size: 16px;
+}
+
+
+.fa {
+    /*font-family: '' !important;*/
+    /*font-size: 200px !important;*/
+    display: inline-block !important;
+    font: normal normal normal 14px/1 FontAwesome !important;
+}
+
+.fa-lg {
+    /*font-family: '' !important;*/
+    /*font-size: 200px !important;*/
+    display: inline-block !important;
+    font: normal normal normal 14px/1 FontAwesome !important;
+}
+
+/* FIX DYNAMIC CONTAINERS */
+.my_d_content {
+    width: 100% !important;
+    padding: 0px !important;
+    font-family: 'Futura Bk BT' !important;
+    /*
+    text-align: justify;
+    text-justify: inter-word;
+    */
+    background: transparent !important;
+    display: none;
+}
+
+.my_d_content * {
+    font-family: 'Futura Bk BT' !important;
+    font-size: 19px;
+}
+
+
+
+
+/* /////  DBSX INTERNAL VALUES /////  */
+body {
+	cursor:default;
+    /*background-image: url(../../../img/01.jpg);*/
+    background-repeat: no-repeat;
+    background-position: 0px, 0px;
+    background-origin: content-box;
+    background-size: cover;
+    background-attachment: fixed;
+    cursor:default;
+    
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+  
+}
+
+/*
+.my_d_content {
+background: transparent !important;
+display: none;
+}
+*/
+
+
+/* Preloader */
+#preloader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #fff;
+  /* change if the mask should have another color then white */
+  z-index: 100  ;
+  /* makes sure it stays on top */
+}
+
+#status {
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  left: 50%;
+  /* centers the loading animation horizontally one the screen */
+  top: 50%;
+  /* centers the loading animation vertically one the screen */
+  background-image: url('../Img/loading.gif');
+  /* path to your loading animation */
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: -150px 0 0 -150px;
+  /* is width and height divided by two */
+}
+
+
+
+a {
+text-decoration: none !important;
+}
+
+a:hover {
+text-decoration: underline !important;
+}
+
+.DBSX_LOG {
+color:#fff;
+background:#000; 
+font-size:17px; 
+line-height: 25px;
+font-weight: normal; 
+margin:0px; 
+padding: 40px; 
+float: none; 
+width: 100%; 
+position:relative; 
+bottom:0px;  
+z-index:99;
+/*max-height: 40%;*/
+overflow: auto;
+font-family:monospace;
+}
+
+.DBSX_LOG_SUCCESSFUL {
+color:#0f0;  
+}
+.DBSX_LOG_ERROR {
+color:#F00;
+}
+
+
+
+    .container-fluid {
+        padding-left:  0% !important; 
+        padding-right: 0% !important; 
+        overflow: hidden !important;
+    }
+
+/*
+@media only screen and (min-width: 320px) and (max-width: 1200px) {
+     .container {
+        padding-left:  3% !important; 
+        padding-right: 3% !important; 
+        overflow: hidden !important;
+    }
+}
+
+@media only screen and (min-width: 1201px) {
+    .container {
+        padding-left:  8% !important; 
+        padding-right: 8% !important; 
+        overflow: hidden !important;
+    }
+}
+*/
+/* GALLERY FIX */
+#lightboxOverlay {
+    top: 0px !important;
+    left: 0px !important;
+    bottom: 0px !important;
+    right: 0px !important;
+    border: 0px !important;
+    padding: 0px !important;
+    margin: 0px !important;
+}
+
+#lightbox {
+    position:fixed;
+    top: 12% !important;
+    left: 0px !important;
+    bottom: 0px !important;
+    right: 0px !important;
+    
+ }
+.lb-container {
+    padding: 30px !important;
+}
+
+.img-thumbnail img {
+    padding: 20px !important;
+}
+
+/* LISTVIEW FIX */
+.pagination a {
+    text-decoration: none;
+}
+
+.DBSX_LISTVIEW a:hover {
+    text-decoration: underline;
+}
+
+.DBSX_LISTVIEW img {
+    border: 0px;
+}
+
+ /* DBSX BANNER CONFIG */
+.carousel-item {
+    transition: transform 0.7s ease-in-out;
+}
+          
+.carousel-fade .active.carousel-item-start,
+.carousel-fade .active.carousel-item-end {
+    transition: opacity 0.7s 0.7s;
+}
