@@ -1,5 +1,5 @@
 <?php
-//inicio desde tab
+//inicio desde tab ecs
 //headers meta tags & cache settings
 @require_once('DBSX/FRAMEWORKS.php');
 //Delete all cache
